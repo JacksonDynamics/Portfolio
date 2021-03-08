@@ -1,0 +1,121 @@
+/* Main Title and Style */
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Comic Sans MS, Comic Sans MS5, cursive;
+  line-height: 20px;
+  font-size: 50px;
+  text-decoration: underline;
+  text-shadow: 2px 3px 1px rgb(136, 136, 136);
+}
+  
+/* Styles for both h2 and h3 text */
+h2, h3 {
+  color: darkred;
+  text-align: center;
+  font-family: sans-serif;
+  text-shadow: 1px 1px 1px white;
+}
+  
+/* Only h3 text size change */
+h3 {
+  font-size: 35px;
+}
+  
+/* Link color */
+a:link    { color: red; }
+a:visited { color: maroon; }
+a:hover   { color: purple; }
+a:active  { color: yellow; }
+
+/* div class "display" style */
+.display {
+  width: 65%;
+  color: white;
+  margin: auto;
+}
+  
+/* div class "display2" style */
+.display2 {
+  width: 85%;
+  color: white;
+  margin: auto;
+  text-align: left;
+}
+  
+/* div class "display3" style */
+ .display3, .display4 {
+  width: 50%;
+  color: white;
+  margin: auto;
+  text-align: left;
+}
+  
+ /* div class "display4" style */
+ .display4 {
+  font-size: 25px;
+ }
+
+/* All Paragraphs stylized */
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+  
+/* Bacground colors and style for Header */
+header {  
+  background-color: black;
+  padding: 1px;
+}
+  
+/* Bacground colors and style for Footer */
+footer {  
+  background-color: black;
+  padding: 1px;
+}
+  
+/* Stylizing & size/placement of Profile Pic */
+.myPic {
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+  
+/* Stylizing & size/placement of final Pic */
+.myPic2 {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+  
+/* Placement of background pic */
+body {
+  background-image: url("images/background.png");
+  background-size: 100%;
+  background-color: black;
+}
+  
+/* Placement of Interest Images into 3 colums on same row */
+#content{
+    display: block;
+    height: auto;
+}
+
+#content > img{   
+  float: left;    
+  width: 300px;
+  height: 220px;
+  margin-left: 135px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#size {
+  font-size: 20px;
+}
